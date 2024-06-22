@@ -1,0 +1,36 @@
+.mainContato{
+    width: 100%;
+    height: calc(100% - 5%);
+    margin: 10% 0 0 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.h1Contato{
+    color: #FFFFFF;
+    text-align: center;
+
+    font-family: "DM Sans";
+    font-size: 29px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: -1px;
+}
+
+.smallContato{
+    display: flex;
+    justify-content: center;
+
+    background-image: linear-gradient(to right, #2499ce, #0088de, #656FD5, #4451e3, #8400cd);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+
+    font-family: "DM Sans";
+    font-size: 29px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: -1px;
+}

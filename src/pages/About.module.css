@@ -1,0 +1,28 @@
+.mainAbout{
+    width: 100vw;
+    height: calc(100vh - 27vh);
+    margin: 110px 0 0 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    display: block;
+    outline: none;
+    margin-left: 7.3%;
+}
+
+.Sobre{
+    color: #FFFFFF;
+    font-size: 30px;
+    font-weight: bolder;
+    line-height: 52px;
+    letter-spacing: -0.4px;
+}
+
+.Desc{
+    color: #a7a7a7;
+    width: 44.5%;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: .625rem;
+}

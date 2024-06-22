@@ -1,0 +1,54 @@
+
+.Footer{
+    display: flex;
+    flex-direction: column;
+}
+
+.Contatos{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 16%;
+}
+
+.contato{
+    display: flex;
+    gap: 33px;
+}
+
+.redes{
+    display: flex;
+    gap: 20px;
+}
+
+.redes img{
+    width: 30px;
+    height: 29.26px;
+}
+
+.Lista{
+    display: flex;
+    gap: 48px;
+}
+
+.Contato{
+    font-family: "DM Sans", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    color: #A7A7A7;
+}
+
+.content{
+    border: 2px solid #42446E;
+    width: 85%;
+    border-radius: 16px;
+    margin-left: 10%;
+    margin-top: -5%;
+    opacity: 0.2;
+}
+
+.redes img:hover, .Contato:hover{
+    filter: brightness(1.5);
+}

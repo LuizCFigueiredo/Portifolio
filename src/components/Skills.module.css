@@ -1,0 +1,11 @@
+.ContainerSkills{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 2rem 6rem;
+    margin-top: 9.5rem;
+}
+
+.ContainerSkills img{
+    width: 80px;
+    height: 80px;
+}
