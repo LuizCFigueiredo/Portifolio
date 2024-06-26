@@ -36,11 +36,11 @@ function Home() {
           <img src={Foto} className={styles.imagemPerfil}></img>
         </div>
       </section>
-      <section id="skills" className={styles.Container2}>
+      <section id={styles.skills} className={styles.Container2}>
         <h1>Skills</h1>
         <SkillsList />
       </section>
-      <section id="projetos" className={styles.Container3}>
+      <section id={styles.projetos} className={styles.Container3}>
         <h1>Projetos</h1>
         <Projetos />
         <a rel="noopener noreferrer" href="#">

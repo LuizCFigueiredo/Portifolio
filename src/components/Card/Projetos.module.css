@@ -1,6 +1,12 @@
-.ContainerCards{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 28px;
-    margin-top: 4.5rem;
+.ContainerCards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 28px;
+  margin-top: 4.5rem;
+}
+
+@media (width <= 765px) {
+  .ContainerCards {
+    grid-template-columns: 1fr;
+  }
 }
