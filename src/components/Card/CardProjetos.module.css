@@ -1,66 +1,65 @@
-.CardContainer{
-    width: 24rem;
-    height: 35.438rem;
-    background-color: #363636;
-    border-radius: 20px 20px 20px 20px;
-    font-family: "Poppins", sans-serif;
+.CardContainer {
+  width: 24rem;
+  height: 35.438rem;
+  background-color: #363636;
+  border-radius: 20px 20px 20px 20px;
+  font-family: "Poppins", sans-serif;
 }
 
 .imgContainer {
-    width: 100%;
-    height: 40%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    border-radius: 20px 20px 0 0;
+  width: 100%;
+  height: 40%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px 20px 0 0;
 }
 
-.CardDesc{
-    border-radius: 0 0 20px 20px;
-    padding: 25px;
-    text-align: left;
+.CardDesc {
+  border-radius: 0 0 20px 20px;
+  padding: 0px 25px 25px 25px;
+  text-align: left;
 }
 
-.TittleCard{
-    color: #CCCCCC;
-    font-weight: 500;
-    font-style: normal;
-    font-size: 28px;
-    line-height: 26px;
+.TittleCard {
+  color: #cccccc;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 28px;
+  line-height: 26px;
 }
 
-.Descricao{
-    margin-top: 17px;
-    font-weight: 300;
-    font-size: 18px;
-    line-height: 26px;
-    color: #CCCCCC;
+.Descricao {
+  margin-top: 17px;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 26px;
+  color: #cccccc;
 }
 
 .CardDesc small {
-    text-wrap: nowrap;
-    color: #CCCCCC;
-    font-size: 14px;
-    font-weight: 300;
-    
+  text-wrap: nowrap;
+  color: #cccccc;
+  font-size: 14px;
+  font-weight: 300;
 }
-.Smaal{
-    margin-top: 12px;
-}
-
-.CardDesc span{
-    font-size: 16px;
-    font-weight: 400;
+.Smaal {
+  margin-top: 12px;
 }
 
-.CodLink{
-    display: flex;
-    justify-content: center;
-    margin-top: 21px;
-    gap: 12px;
+.CardDesc span {
+  font-size: 16px;
+  font-weight: 400;
 }
 
-.link{
-    color: #FFFFFF;
-    text-decoration: underline;
+.CodLink {
+  display: flex;
+  justify-content: center;
+  margin-top: 21px;
+  gap: 12px;
+}
+
+.link {
+  color: #ffffff;
+  text-decoration: underline;
 }

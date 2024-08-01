@@ -1,25 +1,26 @@
 .HeaderNav {
   box-sizing: border-box;
   width: 100%;
-  height: 28px;
-  min-height: 8px;
+  height: 60px;
   font-family: "Archivo Black", sans-serif;
   font-weight: 400;
   display: flex;
   justify-content: center;
   margin-top: 1.5%;
+  position: relative;
 }
 
 .Navbar {
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin-top: 4px;
+  justify-content: space-around;
+  width: 100%;
+  padding: 1rem;
 }
 
 .Logo {
   position: relative;
-  left: -2.7%;
 }
 
 .Lista {
@@ -33,7 +34,11 @@
   display: flex;
   align-items: center;
   flex-direction: row;
-  gap: 59px;
+  gap: 5rem;
+}
+
+.DivLista.open {
+  display: flex;
 }
 
 .PaiLista {
@@ -54,6 +59,7 @@
 .redes {
   display: flex;
   gap: 42px;
+  margin-right: 5rem;
 }
 
 .redes img {
@@ -75,6 +81,7 @@
     #8400cd
   );
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
@@ -86,27 +93,73 @@
   color: #fff;
 }
 
-.redes img:hover {
-  filter: brightness(1.5);
-}
-
-.redes {
-  margin-right: 230px;
-  display: flex;
-  gap: 10.5%;
-}
-
-.redes img {
+.burger {
+  cursor: pointer;
+  display: none;
+  flex-direction: column;
+  justify-content: space-around;
   width: 30px;
-  height: 29.26px;
+  height: 24px;
+  background: transparent;
+  border: none;
+  z-index: 10;
 }
 
-#checkbox {
-  display: none; /* Esconde por padrão em todas as telas */
+.burger span {
+  width: 30px;
+  height: 3px;
+  background: linear-gradient(
+    to right,
+    #2499ce,
+    #0088de,
+    #0071e7,
+    #4451e3,
+    #8400cd
+  );
+  border-radius: 2px;
+  transition: all 0.3s linear;
+  position: relative;
+  transform-origin: 1px;
 }
 
-@media (width <= 765px) {
-  .HeaderNav {
+.burger.open span:nth-child(1) {
+  transform: rotate(45deg) translateY(8px);
+}
+
+.burger.open span:nth-child(2) {
+  opacity: 0;
+}
+
+.burger.open span:nth-child(3) {
+  transform: rotate(-45deg) translateY(-8px);
+}
+
+@media (width <= 768px) {
+  .Navbar {
+    justify-content: space-between;
+  }
+  .burger {
+    display: flex;
+  }
+  .DivLista {
     display: none;
+    width: 100%;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    background-color: white;
+    flex-direction: column;
+    padding: 1rem;
+    gap: 1rem;
+    overflow: hidden;
+  }
+  .DivLista.open {
+    display: flex;
+  }
+  .DivLista.open .Lista {
+    gap: 0.7rem;
+  }
+  .DivLista.open .redes {
+    margin-left: 7rem;
   }
 }
